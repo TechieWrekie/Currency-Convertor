@@ -52,7 +52,7 @@ function App() {
           disableInput
         />
         <div className="mx-auto">
-          <button onClick={calculateCurrencyExchnage} className="mb-2 text-2xl border text-white w-80 hover:bg-blue-500 border-white bg-blue-600 p-5 rounded-lg">Calculate currency value</button>
+          <button onClick={calculateCurrencyExchnage} className="mb-2 text-2xl border text-white w-80 hover:bg-blue-500 border-white bg-blue-600 p-5 rounded-lg">Convert {fromCurrency} to {toCurrency} </button>
         </div>
       </div>
 
